@@ -1,1 +1,1 @@
-{"version": "1.0.0", "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.0.0.bin", "major": false, "changelog": "1.0.0: media pack support, full-duplex audio baseline, -Werror clean"}
+{"version": "1.0.0", "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.0.0.bin", "major": false, "changelog": "1.0.0: media pack, keyboard non-blocking debounce, SD hotplug, SPI 80MHz, -Werror clean"}
