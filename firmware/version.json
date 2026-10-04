@@ -1,1 +1,6 @@
-{"version": "1.0.0", "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.0.0.bin", "major": false, "changelog": "1.0.0: media pack, keyboard non-blocking debounce, SD hotplug, SPI 80MHz, -Werror clean"}
+{
+  "version": "1.1.0",
+  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.1.0.bin",
+  "major": false,
+  "changelog": "BASIC v1.2 语句集(httpget/httpup/httpdl/record/play)、拼音输入法(F1-F4选字/Ctrl+Shift切换)、系统设置网络管理页(WiFi扫描/热点/蓝牙)、字符串原生中文、chat.bas 聊天App"
+}
