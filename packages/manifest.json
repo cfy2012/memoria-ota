@@ -1,0 +1,11 @@
+[
+  {
+    "name": "audio-test.wav",
+    "version": 1,
+    "size": 264644,
+    "crc": 3710898864,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/audio-test.msp",
+    "type": "media",
+    "schema": 1
+  }
+]
