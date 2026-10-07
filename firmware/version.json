@@ -1,6 +1,6 @@
 {
-  "version": "1.2.1",
-  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.2.1.bin",
-  "changelog": "memoria_math 解方程求解器；CALC 键盘扩展；CPU 240MHz；RND esp_random 硬件真随机；I2C 键盘开机 panic 修复",
+  "version": "1.4.0",
+  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.4.0.bin",
+  "changelog": "系统设置网络管理界面（WiFi 扫描点选连接 / AP 热点自定义 / 蓝牙开关，按需射频 boot 零射频不破）；模拟器 PLAY/RECORD 语句与版本串同步至 v1.4.0",
   "major": "false"
 }
