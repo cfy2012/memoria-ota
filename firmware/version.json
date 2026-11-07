@@ -1,6 +1,6 @@
 {
-  "version": "1.6.1",
-  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.1.bin",
-  "changelog": "从补丁复原 10-11 批 GUI 改动：字模 1~3 倍缩放、列表多实例、按钮图标与字号、自定义图标、彩蛋图鉴 24 条；其余同 1.6.0（CHRG 42、SDMMC 39/40/41、AudioGuard、深睡眠）",
+  "version": "1.6.2",
+  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.2.bin",
+  "changelog": "开机优先走 SDMMC 大卡座、失败回落 SPI 小 TF；修正 SUBMOS P-MOS 极性注释；其余同 1.6.1",
   "major": "false"
 }
