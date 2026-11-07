@@ -1,6 +1,6 @@
 {
-  "version": "1.4.0",
-  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.4.0.bin",
-  "changelog": "系统设置网络管理界面（WiFi 扫描点选连接 / AP 热点自定义 / 蓝牙开关，按需射频 boot 零射频不破）；模拟器 PLAY/RECORD 语句与版本串同步至 v1.4.0",
+  "version": "1.6.0",
+  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.0.bin",
+  "changelog": "硬盘损毁后重建基线：CHRG 检测 49→42，新增 SD 大卡 SDMMC 39/40/41 通路（SPI 兼容保留）；AudioGuard 音频保护链与深睡眠关机序列完整保留",
   "major": "false"
 }
