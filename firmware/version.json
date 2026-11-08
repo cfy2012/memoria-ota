@@ -1,6 +1,6 @@
 {
-  "version": "1.6.2",
-  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.2.bin",
-  "changelog": "开机优先走 SDMMC 大卡座、失败回落 SPI 小 TF；修正 SUBMOS P-MOS 极性注释；其余同 1.6.1",
+  "version": "1.6.3",
+  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.3.bin",
+  "changelog": "屏幕 TF 卡槽定为启动卡（SPI，/mem_fat，字库/store 都在这），侧面 SD 大卡座改挂 /sd_ext 当扩展盘，两卡可同时在线；扩展卡不会因挂载失败被格式化",
   "major": "false"
 }
