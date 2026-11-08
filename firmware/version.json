@@ -1,6 +1,6 @@
 {
   "version": "1.6.4",
   "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.4.bin",
-  "changelog": "分区表改为 ota_0 + ota_1 双槽 A/B（删 factory、补 otadata），OTA 真正能升级与回滚；首次烧录地址 0x20000",
+  "changelog": "分区表改为 ota_0 + ota_1 双槽 A/B（删 factory、补 otadata），OTA 真正能升级与回滚；新槽首次启动自校验通过才确认，失败下次复位自动回退旧槽；首次烧录地址 0x20000",
   "major": "false"
 }
