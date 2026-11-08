@@ -1,7 +1,8 @@
 {
-  "version": "1.6.7",
-  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.7.bin",
-  "changelog": "OTA 修通并加身份校验：HTTPS 挂上根证书包（此前少了 CA，esp_https_ota_begin 直接拒绝，OTA 根本发不出去）；下完盘读新槽 app_desc，项目名必须是 memoria_os、版本不低于当前，否则把启动槽切回来不重启；首次启动盖章从 boot 末尾推迟到进桌面稳定运行 30 秒，观察期内崩了由 bootloader 自动回退旧槽，主动关机则视为认可并立即盖章",
+  "version": "1.6.9",
+  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.9.bin",
+  "sha256": "D847F82FBE7DA4CF57B45893C2E760FCA0D31F9151DA68DBD1492788EFAFDA50",
+  "changelog": "OTA 下载全程校验 sha256：清单带摘要，边收边算，对不上就丢掉已写内容、不碰 otadata（截断/半截文件现在一定会被拦）；版本比较抽成可独立编译的纯 C++，CI 加 host 单测覆盖 1.6.7 vs 1.6.70 这类边界；清单缺 sha256 时降级为只靠镜像校验并在日志里告警",
   "major": "false",
   "channel": "beta"
 }
