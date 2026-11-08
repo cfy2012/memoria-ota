@@ -1,8 +1,8 @@
 {
-  "version": "1.6.11",
-  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.11.bin",
-  "sha256": "D9F329031D854F5E01DB8F667449F83A1F6D71DEF50999B84DC0DCD73432CDBC",
-  "changelog": "裸核心板可跑：开机先探电池分压，探不到就关掉低电量保命（否则悬空 ADC 30 秒后自己关机）；串口新增 fw_check / fw_update，无键盘无屏也能走完清单+sha256 全链路 OTA",
+  "version": "1.6.15",
+  "url": "https://api.github.com/repos/cfy2012/memoria-ota/contents/firmware/memoria_os_1.6.15.bin",
+  "sha256": "BE64415361B598587A680EF94447CD474ACD34ABAE7C0DC7E857874C5A2294C7",
+  "changelog": "背光整块删除（GPIO46 是输入专用脚，WS2812 根本驱不动）；WiFi 连接状态机加固，重复 set_config 不再 panic；清单改用 api.github.com raw 通道（jsdelivr / raw.githubusercontent 在本网络被 RST）；修 HTTP 状态码读取顺序、shell 栈提到 12 KB",
   "major": "false",
   "channel": "beta"
 }
