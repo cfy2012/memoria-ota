@@ -1,8 +1,8 @@
 {
-  "version": "1.6.19",
-  "url": "https://api.github.com/repos/cfy2012/memoria-ota/contents/firmware/memoria_os_1.6.19.bin",
-  "sha256": "F2993BD42D80CE32426E080B4A3CAB704A46AC979B53491F70FE8C40D9C0BB9B",
-  "changelog": "OTA 下载链路真机验证版；相对 1.6.17 只递进版本号，用于在真机上跑通拉清单、下载 1.9 MB、写 ota_1 槽、sha256 比对、重启切槽全链路",
+  "version": "1.6.23",
+  "url": "https://api.github.com/repos/cfy2012/memoria-ota/contents/firmware/memoria_os_1.6.23.bin",
+  "sha256": "E4DC4E981D30389D801EAFCD57DEA91E04B35BD98D9CFD04010606EBCBAE96D7",
+  "changelog": "OTA 改 HTTP Range 分段续传；长连接 47 s 必被 RST，现改为每段重连并从已写字节接着下，段上限 12 次",
   "major": "false",
   "channel": "beta"
 }
