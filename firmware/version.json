@@ -1,8 +1,8 @@
 {
-  "version": "1.6.9",
-  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.9.bin",
-  "sha256": "D847F82FBE7DA4CF57B45893C2E760FCA0D31F9151DA68DBD1492788EFAFDA50",
-  "changelog": "OTA 下载全程校验 sha256：清单带摘要，边收边算，对不上就丢掉已写内容、不碰 otadata（截断/半截文件现在一定会被拦）；版本比较抽成可独立编译的纯 C++，CI 加 host 单测覆盖 1.6.7 vs 1.6.70 这类边界；清单缺 sha256 时降级为只靠镜像校验并在日志里告警",
+  "version": "1.6.11",
+  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.11.bin",
+  "sha256": "D9F329031D854F5E01DB8F667449F83A1F6D71DEF50999B84DC0DCD73432CDBC",
+  "changelog": "裸核心板可跑：开机先探电池分压，探不到就关掉低电量保命（否则悬空 ADC 30 秒后自己关机）；串口新增 fw_check / fw_update，无键盘无屏也能走完清单+sha256 全链路 OTA",
   "major": "false",
   "channel": "beta"
 }
