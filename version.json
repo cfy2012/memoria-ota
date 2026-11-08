@@ -1,8 +1,8 @@
 {
   "version": "1.6.15",
   "url": "https://api.github.com/repos/cfy2012/memoria-ota/contents/firmware/memoria_os_1.6.15.bin",
-  "sha256": "BE64415361B598587A680EF94447CD474ACD34ABAE7C0DC7E857874C5A2294C7",
-  "changelog": "背光整块删除（GPIO46 是输入专用脚，WS2812 根本驱不动）；WiFi 连接状态机加固，重复 set_config 不再 panic；清单改用 api.github.com raw 通道（jsdelivr / raw.githubusercontent 在本网络被 RST）；修 HTTP 状态码读取顺序、shell 栈提到 12 KB",
+  "sha256": "ACC49E68194FA4C6C6A4D82B4E9BF132FFE42D8ACD25FC53E84B57EAC0B9A911",
+  "changelog": "背光整块删除（GPIO46 是输入专用脚，WS2812 根本驱不动）；WiFi 连接状态机加固，重复 set_config 不再 panic；清单与固件改用 api.github.com raw 通道（jsdelivr / raw.githubusercontent 在本网络被 RST）；修 HTTP 状态码读取顺序、shell 栈提到 12 KB；OTA 下载期间关 WiFi 省电、每 4 KB 让一个 tick 给 WiFi 栈，修中途断流",
   "major": "false",
   "channel": "beta"
 }
