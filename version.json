@@ -1,0 +1,7 @@
+{
+  "version": "1.6.5",
+  "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/firmware/memoria_os_1.6.5.bin",
+  "changelog": "用户数据全部搬到 TF 卡 /mem_fat/sys：NVS 七个命名空间镜像到 sys/nvs.bin（60 秒自动存、关机前强制存、NVS 被擦空时开机回灌），私有文件系统改写到 sys/privfs.bin（首次上卡把 flash 老数据一次性搬过去）；卡不在时自动降级回 flash 照常开机；shell 新增 vault 命令",
+  "major": "false",
+  "channel": "beta"
+}
