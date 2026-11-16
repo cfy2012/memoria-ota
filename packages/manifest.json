@@ -7,5 +7,113 @@
     "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/audio-test.bin",
     "type": "media",
     "schema": 1
+  },
+  {
+    "name": "starfall",
+    "version": "1.0.0",
+    "size": 2675,
+    "crc": 3921988198,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/starfall.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "fps",
+    "version": "1.0.0",
+    "size": 2611,
+    "crc": 1150875788,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/fps.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "tunnel",
+    "version": "1.0.0",
+    "size": 2123,
+    "crc": 4740900,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/tunnel.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "runner",
+    "version": "1.0.0",
+    "size": 2027,
+    "crc": 3932284536,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/runner.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "tank",
+    "version": "1.0.0",
+    "size": 4800,
+    "crc": 2216828211,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/tank.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "dodge",
+    "version": "1.0.0",
+    "size": 2031,
+    "crc": 2527772508,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/dodge.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "maze",
+    "version": "1.0.0",
+    "size": 3536,
+    "crc": 3174493765,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/maze.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "duel",
+    "version": "1.0.0",
+    "size": 2696,
+    "crc": 2195389442,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/duel.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "snake",
+    "version": "1.0.0",
+    "size": 2218,
+    "crc": 1282329099,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/snake.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "breakout",
+    "version": "1.0.0",
+    "size": 2599,
+    "crc": 3184922127,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/breakout.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "lander",
+    "version": "1.0.0",
+    "size": 2593,
+    "crc": 1393166925,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/lander.msp",
+    "type": "app",
+    "schema": 1
+  },
+  {
+    "name": "dungeon",
+    "version": "1.0.0",
+    "size": 3644,
+    "crc": 2011357398,
+    "url": "https://cdn.jsdelivr.net/gh/cfy2012/memoria-ota@main/packages/dungeon.msp",
+    "type": "app",
+    "schema": 1
   }
 ]
